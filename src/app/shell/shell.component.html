@@ -5,9 +5,9 @@
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="#">Link 1</a>
-      <a mat-list-item href="#">Link 2</a>
-      <a mat-list-item href="#">Link 3</a>
+      <a mat-list-item href="#">Tuner</a>
+      <a mat-list-item href="#">Metronome</a>
+      <a mat-list-item href="#">Audio Recorder</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -24,5 +24,6 @@
       <span>FluteFinesse</span>
     </mat-toolbar>
     <!-- Add Content Here -->
+    <app-page1></app-page1>
   </mat-sidenav-content>
 </mat-sidenav-container>
