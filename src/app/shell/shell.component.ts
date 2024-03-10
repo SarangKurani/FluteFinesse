@@ -8,7 +8,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
 import { Observable } from 'rxjs';
 import { map, shareReplay } from 'rxjs/operators';
-import { Page1Component } from './page1/page1.component';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-shell',
@@ -22,9 +22,7 @@ import { Page1Component } from './page1/page1.component';
     MatListModule,
     MatIconModule,
     AsyncPipe,
-
-    Page1Component
-
+    RouterModule,
   ]
 })
 export class ShellComponent {
