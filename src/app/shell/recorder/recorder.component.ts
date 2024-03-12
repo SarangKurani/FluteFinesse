@@ -73,3 +73,6 @@ export class RecorderComponent {
     link.click();
   }
 }
+
+
+// Code picked up from https://stackblitz.com/edit/angular-audio-recorder
