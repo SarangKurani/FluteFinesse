@@ -1,1 +1,11 @@
-<p>metronome works!</p>
+<mat-form-field>
+    <mat-label for="bpmInput">Input</mat-label>
+    <input name="bpmInput" title="Enter BPM" placeholder="Enter BPM here..." matInput [(ngModel)]="selectedBPM"
+        type="number">
+
+    <button mat-button (click)="startMetronome()">Start</button>
+    <button mat-button (click)="stopMetronome()">Stop</button>
+</mat-form-field>
+
+
+<p>{{selectedBPM}}</p>
